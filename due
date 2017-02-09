@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This uses the "schedule" plugin to show what tasks are due 
+
+# Change this to the location of your todo.sh application
+COMMAND="/home/craig/bin/todo.sh -@ v due"
+TIME=2
+
+watch --color --no-title -n $TIME $COMMAND $@
