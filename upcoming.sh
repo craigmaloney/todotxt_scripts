@@ -1,5 +1,5 @@
 #!/bin/bash
-TODO=/home/craig/bin/todo.sh
+TODO=/usr/local/bin/todo.sh
 PAST=`$TODO view past`
 TWO_WEEKS=`$TODO view 2weeks`
 ONE_MONTH=`$TODO view 1month`

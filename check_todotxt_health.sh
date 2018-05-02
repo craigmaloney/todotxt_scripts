@@ -1,7 +1,7 @@
 #!/bin/bash
 TODOTXTDIR=/home/craig/Dropbox/todo
 TODOTXTFILE=$TODOTXTDIR/todo.txt
-TODOSH=/home/craig/bin/todo.sh
+TODOSH=/usr/local/bin/todo.sh
 
 NUMREPEATS=$(grep "+recur" $TODOTXTFILE | wc -l)
 NUMNOCONTEXT=$(grep -v -n @ $TODOTXTFILE | grep -v +project | grep -v +someday)

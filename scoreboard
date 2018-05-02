@@ -1,8 +1,5 @@
 #!/bin/bash
-
-# This uses the punch plugin to show which task has been punched in
-
 TIME=2
-COMMAND="/home/craig/bin/todo.sh punch wh && echo && /home/craig/bin/todo.sh -@ ls"
+COMMAND="todo.sh punch wh && echo && todo.sh -@ ls"
 
 watch --color --no-title -n $TIME $COMMAND $@ 
